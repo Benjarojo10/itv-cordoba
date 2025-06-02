@@ -4,7 +4,7 @@ function verificar() {
     var mensaje = document.getElementById("mensaje");
   
     if (usuario === "admin" && clave === "1234") {
-      window.location.href = "Main.html";
+      window.location.href = "main.html";
     } else {
       mensaje.innerText = "Usuario o contraseña incorrectos.";
       mensaje.style.color = "red";
